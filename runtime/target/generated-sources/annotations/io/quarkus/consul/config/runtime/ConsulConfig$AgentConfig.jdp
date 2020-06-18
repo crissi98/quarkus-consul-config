@@ -1,0 +1,12 @@
+#
+#Thu Jun 18 15:24:42 CEST 2020
+io.quarkus.consul.config.runtime.ConsulConfig.AgentConfig.connectionTimeout=The amount of time to wait when initially establishing a connection before giving up and timing out.\n<p>\nSpecify `0` to wait indefinitely.
+io.quarkus.consul.config.runtime.ConsulConfig.AgentConfig.trustCerts=When using HTTPS and no keyStore has been specified, whether or not to trust all certificates
+io.quarkus.consul.config.runtime.ConsulConfig.AgentConfig.readTimeout=The amount of time to wait for a read on a socket before an exception is thrown.\n<p>\nSpecify `0` to wait indefinitely.
+io.quarkus.consul.config.runtime.ConsulConfig.AgentConfig.useHttps=Whether or not to use HTTPS when communicating with the agent
+io.quarkus.consul.config.runtime.ConsulConfig.AgentConfig.hostPort=Consul agent host
+io.quarkus.consul.config.runtime.ConsulConfig.AgentConfig.token=Consul token to be provided when authentication is enabled
+io.quarkus.consul.config.runtime.ConsulConfig.AgentConfig.trustStorePassword=Password of KeyStore to be used containing the SSL certificate used by Consul agent
+io.quarkus.consul.config.runtime.ConsulConfig.AgentConfig.keyStore=KeyStore to be used containing the SSL certificate used by Consul agent\nCan be either a classpath resource or a file system path
+io.quarkus.consul.config.runtime.ConsulConfig.AgentConfig.keyStorePassword=Password of KeyStore to be used containing the SSL certificate used by Consul agent
+io.quarkus.consul.config.runtime.ConsulConfig.AgentConfig.trustStore=KeyStore to be used containing the SSL certificate used by Consul agent\nCan be either a classpath resource or a file system path

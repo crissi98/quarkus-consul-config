@@ -1,0 +1,8 @@
+#
+#Thu Jun 18 15:24:42 CEST 2020
+io.quarkus.consul.config.runtime.ConsulConfig.enabled=If set to true, the application will attempt to look up the configuration from Consul
+io.quarkus.consul.config.runtime.ConsulConfig.propertiesValueKeys=Keys whose value represents a properties file.\nWhen this is used, the keys that end up in the user configuration are the keys of the properties file,\nnot these keys
+io.quarkus.consul.config.runtime.ConsulConfig.rawValueKeys=Keys whose value is a raw string.\nWhen this is used, the keys that end up in the user configuration are the keys specified her with '/' replaced by '.'
+io.quarkus.consul.config.runtime.ConsulConfig.failOnMissingKey=If set to true, the application will not start if any of the configured config sources cannot be located
+io.quarkus.consul.config.runtime.ConsulConfig.agent=Consul agent related configuration
+io.quarkus.consul.config.runtime.ConsulConfig.prefix=Common prefix that all keys share when looking up the keys from Consul.\nThe prefix is <b>not</b> included in the keys of the user configuration

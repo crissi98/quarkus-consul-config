@@ -1,0 +1,15 @@
+---
+name: "Consul Config"
+metadata:
+  keywords:
+  - "consul-client"
+  - "config"
+  - "configuration"
+  - "consul"
+  categories:
+  - "configuration"
+  status: "preview"
+group-id: "io.quarkus"
+artifact-id: "quarkus-consul-config"
+version: "999-SNAPSHOT"
+description: "Read runtime configuration from Consul Key - Value store"
